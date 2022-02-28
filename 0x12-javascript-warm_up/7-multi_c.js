@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/node
 const ary = process.argv.slice(2);
 const arg = parseInt(ary[0]);
 if (!Number.isInteger(arg)) {
