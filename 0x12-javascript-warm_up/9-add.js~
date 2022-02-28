@@ -1,0 +1,10 @@
+#!/bin/bash
+const ary = process.argv.slice(2);
+let val1;
+let val2;
+val1 = parseInt(ary[0]);
+val2 = parseInt(ary[1]);
+function add(a, b) {
+  return(a + b);
+}
+console.log(add(val1, val2));

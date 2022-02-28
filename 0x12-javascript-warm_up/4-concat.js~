@@ -1,0 +1,3 @@
+#!/bin/bash
+const ary = process.argv.slice(2);
+console.log(ary[0]+' is '+ary[1]);
